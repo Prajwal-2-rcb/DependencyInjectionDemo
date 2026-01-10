@@ -1,6 +1,12 @@
 package com.codesnippet.dependencyinjection;
 
-public interface Order {
+import org.springframework.stereotype.Component;
+
+@Component
+public class Order {
 
 
+    public void process() {
+        System.out.println("Order process");
+    }
 }

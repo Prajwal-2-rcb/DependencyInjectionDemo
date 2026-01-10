@@ -1,5 +1,15 @@
 package com.codesnippet.dependencyinjection;
 
-public class OnlineOrder implements Order {
+import org.springframework.stereotype.Component;
 
+@Component
+public class OnlineOrder {
+
+    public OnlineOrder() {
+        System.out.println("Init  online order");
+    }
+
+    public void process() {
+        System.out.println("Processing online order");
+    }
 }
