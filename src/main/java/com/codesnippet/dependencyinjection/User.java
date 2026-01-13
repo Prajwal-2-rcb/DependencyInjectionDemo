@@ -1,5 +1,9 @@
 package com.codesnippet.dependencyinjection;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class User {
 
     Order order;
