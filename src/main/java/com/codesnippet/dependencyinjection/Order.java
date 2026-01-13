@@ -7,8 +7,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class Order {
 
-    @Autowired
-    @Lazy
     User user;
+    public void setorder(User user) {
+        this.user = user;
+    }
+
+//    @Autowired
+//    @Lazy
+//    User user;
+
+
 
 }
