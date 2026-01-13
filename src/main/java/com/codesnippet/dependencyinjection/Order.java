@@ -5,12 +5,12 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Order {
+public interface Order {
 
-    User user;
-    public void setorder(User user) {
-        this.user = user;
-    }
+//    User user;
+//    public void setorder(User user) {
+//        this.user = user;
+//    }
 
 //    @Autowired
 //    @Lazy

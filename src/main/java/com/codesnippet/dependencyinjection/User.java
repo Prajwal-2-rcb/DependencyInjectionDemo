@@ -14,9 +14,9 @@ public class User {
         System.out.println("Initializing User");
     }
 
-    @PostConstruct
-    public void init()
-    {
-        order.setorder(this);
-    }
+//    @PostConstruct
+//    public void init()
+//    {
+//        order.setorder(this);
+//    }
 }
